@@ -1,0 +1,30 @@
+{
+  "name": "api-nodejs",
+  "version": "1.0.0",
+  "description": "api node js",
+  "main": "src/server.js",
+  "scripts": {
+    "watch": "nodemon"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "express"
+  ],
+  "author": "jean Anselme",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.6.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "supertest": "^6.2.3"
+  }
+}
